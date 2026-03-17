@@ -7,7 +7,7 @@ def back(what_search):
         os.chdir('..')
         liste=os.listdir('.')
         if what_search in liste:
-            #print('i find ')
+            print('i find ')
             #print(os.listdir('.'))
             find=1
             os.chdir(what_search)
