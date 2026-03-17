@@ -16,7 +16,8 @@ def back(what_search):
             print(os.listdir('.'))
         else :
             print('not found ')
-            if(nberr== 20):
+            nbrerr+=1
+            if(nbrerr== 20):
                 print('sorry fichier not found ')
                 print('pwd is :',os.getcwd())
                 find =-1
